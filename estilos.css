@@ -1,0 +1,67 @@
+
+#contenedor {
+        
+    border: 5px solid rgba(201, 63, 63, 0);
+    display: inline-block;
+    margin: 15% 40% 15% 40%;    
+}
+
+
+#pantalla {
+
+    border: 3px solid rgba(165, 165, 165);
+    background-color: rgb(255, 255, 255);
+
+    width: 285px;
+    height: 40px; 
+    box-shadow: 4px 4px rgb(172, 162, 162);
+    margin-bottom: 10px; /*no borrar*/
+
+    font-size: 37px;
+    
+    margin-top: -60px; /*importante no borrar*/
+
+    text-align: right; /*no borrar*/
+    padding-top: 30px; /*no borrar*/
+}
+
+button {
+    font-size: 20px;
+    margin: 7px;
+    width: 55px;
+    height: 55px;
+    box-shadow: 4px 4px rgb(172, 162, 162);
+}
+
+
+#valor_1{
+    
+    margin-left: 20px;
+    margin-top: 25px;
+
+    font-size: 25px;
+    display: inline-block;
+    
+    border: 5px solid rgba(15, 12, 173, 0);
+    width: 20px;
+    height: 20px;
+}
+
+#operador{
+    margin-left: 40px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+
+#valor_2{
+    margin-left: 50px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+#resultado{ 
+    margin-left: 1px;
+    font-size: 25px;
+    display: inline-block;
+}
